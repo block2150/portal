@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Material Admin</title>
+        
+        <!-- Vendor CSS -->
+        <link href="/assets/vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bootgrid/jquery.bootgrid.min.css" rel="stylesheet">
+        <link href="/assets/vendors/bower_components/google-material-color/dist/palette.css" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="/assets/css/app.min.1.css" rel="stylesheet">
+        <link href="/assets/css/app.min.2.css" rel="stylesheet">
+    </head>
+
+    <body data-ma-header="teal">
+        
+        <div w3-include-html="/widgets/header.html"></div>
+
+        <section id="main">
+            <div w3-include-html="/widgets/aside.html"></div>
+
+            <section id="content">
+                <div class="container">
+                    <div class="c-header">
+                        <h2>Desktops</h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h2>All Desktops <small>This is a complete list of all the desktops within your ThunderCloud group.</small></h2>
+
+                            <a href="add-desktop.html" class="btn palette-Light-Green bg btn-float waves-effect waves-circle waves-float"><i class="zmdi zmdi-plus"></i></a>
+
+                        </div>
+
+                        <div class="table-responsive">
+                            <table id="data-table-basic" class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th data-column-id="id" data-type="numeric">ID</th>
+                                        <th data-column-id="name">Desktop Name</th>
+                                        <th data-column-id="status" data-order="false" class="text-center">Status</th>
+                                        <th data-column-id="type" data-order="desc" class="text-center">Type</th>
+                                        <th data-column-id="os" data-order="desc">OS</th>
+                                        <th data-column-id="warnings" data-order="desc">Warnings</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-red"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-yellow"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-yellow"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-yellow"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-yellow"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-yellow"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">XL</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10238</td>
+                                        <td>Desktop Name</td>
+                                        <td class="text-center c-green"><i class="zmdi zmdi-circle zmdi-hc-fw"></i></td>
+                                        <td class="text-center">L</td>
+                                        <td>Windows 10</td>
+                                        <td>---</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div w3-include-html="/widgets/footer.html"></div>
+
+        </section>
+
+        <!-- Page Loader -->
+        <div class="page-loader palette-Teal bg">
+            <div class="preloader pl-xl pls-white">
+                <svg class="pl-circular" viewBox="25 25 50 50">
+                    <circle class="plc-path" cx="50" cy="50" r="20"/>
+                </svg>
+            </div>
+        </div>
+
+        
+        <div w3-include-html="/widgets/browser.html"></div>
+
+        <!-- Javascript Libraries -->
+
+        <script src="https://www.w3schools.com/lib/w3data.js"></script>
+
+        <script>
+        w3IncludeHTML();
+        </script>
+
+        <!-- Javascript Libraries -->
+        <script src="/assets/vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/assets/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        <script src="/assets/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="/assets/vendors/bower_components/Waves/dist/waves.min.js"></script>
+        <script src="/assets/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="/assets/vendors/bootgrid/jquery.bootgrid.updated.min.js"></script>
+        
+        <!-- Placeholder for IE9 -->
+        <!--[if IE 9 ]>
+            <script src="/assets/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+        <![endif]-->
+        
+        <script src="/assets/js/functions.js"></script>
+        <script src="/assets/js/actions.js"></script>
+        <script src="/assets/js/demo.js"></script>
+
+        <!-- Data Table -->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                //Basic Example
+                $("#data-table-basic").bootgrid({
+                    css: {
+                        icon: 'zmdi icon',
+                        iconColumns: 'zmdi-view-module',
+                        iconDown: 'zmdi-expand-more',
+                        iconRefresh: 'zmdi-refresh',
+                        iconUp: 'zmdi-expand-less'
+                    },
+                });
+                
+            });
+        </script>
+    </body>
+  </html>
